@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TodoItem from './components/TodoItem';
+import TodoItem from './components/Todo/TodoItem';
 
 class App extends Component {
   constructor() {
     super();
     this.todoItems = [
-      { title: 'Lam viec 1', isComplete: true },
-      { title: 'Lam viec 2', isComplete: true },
-      { title: 'Lam viec 3' },
+      { title: 'PHP', isComplete: true },
+      { title: 'MySQL', isComplete: true },
+      { title: 'NodeJS' },
+      { title: 'Mongo DB' },
+      { title: 'ReactJS' },
+      { title: 'React Hook' },
+      { title: 'Redux-thunk' },
+      { title: 'Redux-Saga' },
     ];
   }
 
