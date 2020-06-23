@@ -15,8 +15,15 @@ class App extends Component {
       { title: 'React Hook' },
       { title: 'Redux-thunk' },
       { title: 'Redux-Saga' },
+      { title: 'Docker - LEMP' },
+      { title: 'Vagrant - LAMP' },
+      { title: 'HTML' },
+      { title: 'CSS' },
+      { title: 'Javascript' },
+      { title: 'GIT' },
     ];
   }
+
   render() {
     return (
       <div className="App">
