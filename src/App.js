@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TodoItem from './components/Todo/TodoItem';
+import TraffictLight from './components/TrafficLight/TrafficLight';
 
 class App extends Component {
   constructor() {
@@ -20,14 +21,16 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        {this.todoItems.length > 0 &&
-          this.todoItems.map((item, index) => (
-            <TodoItem key={index} item={item} />
-          ))
-        }
-        {this.todoItems.length === 0 && 'Nothing here'}
-      </div>
+      // <div className="App">
+      //   {this.todoItems.length > 0 &&
+      //     this.todoItems.map((item, index) => (
+      //       <TodoItem key={index} item={item} />
+      //     ))
+      //   }
+      //   {this.todoItems.length === 0 && 'Nothing here'}
+      // </div>
+
+      <TraffictLight />
     );
   }
 
